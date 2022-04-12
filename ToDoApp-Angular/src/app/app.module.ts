@@ -8,9 +8,6 @@ import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AngularMaterialModule } from './features/shared/main-outlet/angular-material/angular-material.module';
 
-// import { MatSliderModule } from  "@angular/material/slider";
-
-
 @NgModule({
 
   declarations: [
@@ -18,6 +15,8 @@ import { AngularMaterialModule } from './features/shared/main-outlet/angular-mat
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     AngularMaterialModule
   ],
