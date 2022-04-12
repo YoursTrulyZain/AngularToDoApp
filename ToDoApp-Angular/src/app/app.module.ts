@@ -6,17 +6,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
+import { AngularMaterialModule } from './features/shared/main-outlet/angular-material/angular-material.module';
+
+// import { MatSliderModule } from  "@angular/material/slider";
+
 
 @NgModule({
+
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
     AppRoutingModule,
+    AngularMaterialModule
   ],
+  exports: [],
   providers: [],
   bootstrap: [AppComponent]
 })
